@@ -1672,15 +1672,33 @@ input, select, textarea {
 		border-top: 1px solid white;
 		border-bottom: 1px solid white;
 	}
-
+	.title{
+		display: flex;
+		justify-content: flex-start;
+		align-items: baseline;
+	}
+	.title1{
+		display: flex;
+		justify-content: flex-start;
+		align-items: baseline;
+	}
+	.javaScript .title i{
+		margin-right:1%;
+	}
+		
+	.html .title i{
+		margin: 0 1%;
+	}
+	
+	
 	.html h2{
-		width: 15%;
+		width: 40%;
+		text-align: center;
 	}
 	
-	.css h2{
-		width: 10%;
+	.javaScript .title1 i{
+		margin-right:2%;
 	}
-	
 	.javaScript h2{
 		width: 35%;
 		
@@ -1709,13 +1727,14 @@ input, select, textarea {
 	}
 
 	@media (max-width: 736px){
-		.html h2{
-			width: 15%;
-		}
+		/* .html h2{
+			width: 50%;
+			text-align: center;
+		} */
 		
-		.css h2{
+		/* .css h2{
 			width: 10%;
-		}
+		} */
 		
 		.javaScript h2{
 			width: 32%;
@@ -1726,7 +1745,22 @@ input, select, textarea {
 		.html h2{
 			width: 17%;
 		}
-		
+		.title{
+			justify-content: center;
+			align-items:center;
+		}
+		.title1{
+			justify-content: center;
+			
+		}
+		.javaScript .title1 i{
+			padding-top:2%;
+			margin-right:2%;
+		}
+		.javaScript .title1 h2{
+			
+			margin-bottom: 5%;
+		}
 		.css h2{
 			width: 12%;
 		}
