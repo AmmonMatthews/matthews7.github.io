@@ -1612,8 +1612,8 @@ input, select, textarea {
 					height: 2.25rem;
 					background-size: 14px 14px;
 				}
-
-		}
+				
+		}	
 
 		@media screen and (max-width: 480px) {
 
@@ -1680,9 +1680,7 @@ input, select, textarea {
 	.css h2{
 		width: 10%;
 	}
-	.css2 button{
-		href="https://github.com/matthews7/responsive-web-design-I/tree/master"
-	}
+	
 	.javaScript h2{
 		width: 35%;
 		
@@ -1708,4 +1706,32 @@ input, select, textarea {
 		white-space: nowrap;
 		margin-bottom: 4%;
 
+	}
+
+	@media (max-width: 736px){
+		.html h2{
+			width: 15%;
+		}
+		
+		.css h2{
+			width: 10%;
+		}
+		
+		.javaScript h2{
+			width: 32%;
+			
+	}
+
+	@media (max-width: 480px){
+		.html h2{
+			width: 17%;
+		}
+		
+		.css h2{
+			width: 12%;
+		}
+		
+		.javaScript h2{
+			width: 40%;
+			
 	}
